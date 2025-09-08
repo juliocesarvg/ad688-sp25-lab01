@@ -1,0 +1,24 @@
+[project]
+name = "juliovargas"
+version = "0.0.1"
+description = "Initial website for JulioVargas Github"
+authors = [
+    { name = "JulioVargas", email = "230661947+juliocesargv@users.noreply.github.com" }
+]
+readme = "README.md"
+
+# Acepta Python 3.11, 3.12, 3.13 (tu versión actual es 3.13.7)
+requires-python = "^3.11"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "plotly"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
